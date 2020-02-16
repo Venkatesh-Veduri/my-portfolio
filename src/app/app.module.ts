@@ -13,14 +13,12 @@ import { AdminModule } from './admin/admin.module';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDsZsRRKrjo3qo9dFfIS6G6GNI6cSRdOvw",
-  authDomain: "my-portfolio-af58d.firebaseapp.com",
-  databaseURL: "https://my-portfolio-af58d.firebaseio.com",
-  projectId: "my-portfolio-af58d",
-  storageBucket: "my-portfolio-af58d.appspot.com",
-  messagingSenderId: "515332046823",
-  appId: "1:515332046823:web:ef5b39bb640b0d168c0742",
-  measurementId: "G-W1MKXRV5FP"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  databaseURL: "YOUR_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID"
 };
 
 @NgModule({
